@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebReview - Master HTML & CSS</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html"><span class="web">Web</span><span class="review">Review</span></a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item active"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#services">Services</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Master <span class="highlight">HTML</span> & <span class="highlight">CSS</span></h1>
+                    <p class="subtitle">A simple project to review what you learned in Season 1</p>
+                    <p class="instructor">Instructor: <span class="instructor-name">Mohamed Samy</span></p>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/Home.jpg" alt="HTML and CSS coding on screen">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About <span class="highlight">Us</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to our HTML & CSS review project. This website is designed to help you practice and reinforce what you learned in Season 1 with instructor Mohamed Samy.</p>
+                    <p>We've created this simple but beautiful website using only HTML and CSS to demonstrate the power of these fundamental web technologies.</p>
+                    <ul class="feature-list">
+                        <li><i class="check-icon"></i> Semantic HTML5</li>
+                        <li><i class="check-icon"></i> Advanced CSS3</li>
+                        <li><i class="check-icon"></i> Responsive Design</li>
+                        <li><i class="check-icon"></i> CSS Animations</li>
+                        <li><i class="check-icon"></i> Flexbox & Grid</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="images/About.jpg" alt="Workspace with laptop and desk items">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="highlight">Services</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="services-container">
+                <div class="service-card">
+                    <div class="service-icon service-icon-web">
+                        <i class="fa-solid fa-laptop"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Building modern websites using the latest web technologies and best practices.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon service-icon-responsive">
+                        <i class="fa-solid fa-mobile"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Creating websites that look great on all devices from desktop to mobile.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon service-icon-ui">
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing beautiful and intuitive user interfaces with excellent user experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact <span class="highlight">Us</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon location-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>Location</h4>
+                            <p>Kafr Ash-shaykh - Kafr El-Sheikh Governorate</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon phone-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>Phone</h4>
+                            <p>01017822954</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon email-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>Email</h4>
+                            <p>unshreif@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon twitter"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="social-icon instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="social-icon linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon github"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">WebReview</h3>
+                    <p class="footer-description">A project to review HTML & CSS fundamentals taught by Mohamed Samy.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="quick-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3 class="footer-title">Newsletter</h3>
+                    <p>Subscribe to get updates on new lessons.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit" class="btn-submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 WebReview. All Rights Reserved | Designed by <a href="#" class="designer-link">Mohamed Samy</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
